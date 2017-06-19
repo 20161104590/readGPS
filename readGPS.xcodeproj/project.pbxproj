@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		DFA6AA8C1EF3D3DE00EF85CC /* readGPS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = readGPS; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA6AA8F1EF3D3DE00EF85CC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		DFA6AA961EF3D4C000EF85CC /* output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = output; sourceTree = "<group>"; };
+		DFA6AA971EF3D4E700EF85CC /* GPS170510.log */ = {isa = PBXFileReference; lastKnownFileType = text; path = GPS170510.log; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				DFA6AA8F1EF3D3DE00EF85CC /* main.c */,
+				DFA6AA971EF3D4E700EF85CC /* GPS170510.log */,
+				DFA6AA961EF3D4C000EF85CC /* output */,
 			);
 			path = readGPS;
 			sourceTree = "<group>";
